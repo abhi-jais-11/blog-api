@@ -41,7 +41,7 @@ ALLOWED_HOSTS = [h.strip() for h in _raw_allowed.split(",") if h.strip()]
 
 # If no hosts provided and DEBUG is True, allow localhost for convenience
 if not ALLOWED_HOSTS and DEBUG:
-    ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+    ALLOWED_HOSTS = ["localhost", "127.0.0.1","blogs-52vm.onrender.com"]
 
 # Application definition
 INSTALLED_APPS = [
